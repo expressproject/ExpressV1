@@ -19,7 +19,7 @@
 		<module>Express-weather-api</module>
 		<module>Express-weather-impl</module>
 		<module>Express-weather-web</module>
-<module>Express-weather-ws-composite</module>
+		<module>Express-weather-ws-composite</module>
 
 	</modules>
 	<properties>
