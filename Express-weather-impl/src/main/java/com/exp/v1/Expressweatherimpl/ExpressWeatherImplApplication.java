@@ -1,13 +1,13 @@
-package com.exp.v1.Expressweatherweb;
+package com.exp.v1.Expressweatherimpl;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ExpressWeatherWebApplication {
+public class ExpressWeatherImplApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ExpressWeatherWebApplication.class, args);
+		SpringApplication.run(ExpressWeatherImplApplication.class, args);
 	}
 
 }
