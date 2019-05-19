@@ -7,7 +7,7 @@ import java.util.Set;
 
 import org.springframework.stereotype.Component;
 
-import com.exp.v1.Expressweatherapi.dtos.Users;
+import com.exp.v1.Expressweatherapi.entity.Users;
 
 /**
  * @author abhilashpanigrahi
@@ -18,5 +18,6 @@ import com.exp.v1.Expressweatherapi.dtos.Users;
 public interface UsersDAO {
 	
 	public Set<Users> getUsers();
+	public Users saveUser(Users user);
 
 }
